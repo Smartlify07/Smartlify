@@ -1,7 +1,7 @@
 const ImageGrid = () => {
   return (
-    <div className="relative flex items-center  justify-center px-4">
-      <div className="self-center   grid grid-cols-3 gap-4 mt-6 py-7 relative w-11/12">
+    <div className="relative flex items-center   justify-center ">
+      <div className="self-center grid-cols-2  grid lg:grid-cols-3 gap-4 mt-6 py-7 relative ">
         <img src="./images/About/Image 1.png" alt="" />
         <img src="./images/About/Image 2.png" alt="" />
         <img

@@ -17,7 +17,7 @@ const ExpertiseRight = () => {
     },
   ];
   return (
-    <aside className="relative flex flex-col gap-3">
+    <aside className="relative flex flex-col  xl:flex xl:flex-col gap-3 mt-7">
       {blocks.map((block) => (
         <Block
           key={block.heading}
@@ -33,7 +33,7 @@ const ExpertiseRight = () => {
 
 const Block = (props) => {
   return (
-    <div className="bg-white px-6 w-[400px] py-5 flex items-start gap-5 rounded-sm ">
+    <div className="bg-white px-6 lg:w-[400px] py-5 flex items-start gap-5 rounded-sm ">
       <img className="w-9" src={props.icon} alt={props.heading} />
 
       <div className="flex flex-col gap-1">
@@ -48,10 +48,10 @@ const Block = (props) => {
 
 function Gradient() {
   return (
-    <div className="flex absolute bottom-[-8px]">
-      <div className="bg-lightorange h-2 w-20"></div>
-      <div className="bg-verylightorange h-2 w-60"></div>
-      <div className="bg-royalblue h-2 w-20"></div>
+    <div className="flex absolute bottom-[-8px] w-full  ">
+      <div className="bg-lightorange h-2 w-[20%]"></div>
+      <div className="bg-verylightorange h-2 w-[60%]"></div>
+      <div className="bg-royalblue h-2 w-[20%]"></div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import Button from "../../../Components/Button/Button";
+import Button from "../../../Components/Button";
 import useIcons from "../../../hooks/useIcons";
 
 const services = [
@@ -25,10 +25,10 @@ const Services = () => {
   const { FaArrowRightLong } = useIcons();
   return (
     <section className="font-poppins py-20 px-6 bg-lightpink flex flex-col items-center">
-      <div className="container w-10/12">
+      <div className="lg:w-11/12 xl:w-10/12">
         <h6 className="text-black uppercase text-sm my-4">our services</h6>
         <header>
-          <h1 className="text-darkblue font-semibold text-3xl w-[40%] mb-6">
+          <h1 className="text-darkblue font-semibold text-3xl lg:w-[50%] mb-6">
             We build software solutions that solve client&apos;s business
             challenges
           </h1>
@@ -40,7 +40,7 @@ const Services = () => {
           icon={<FaArrowRightLong />}
         />
 
-        <div className="grid grid-cols-3 gap-4 mt-20">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-4 mt-20">
           {services.map((service) => (
             <Service
               key={service.heading}

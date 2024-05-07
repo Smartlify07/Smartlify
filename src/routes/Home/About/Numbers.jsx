@@ -19,7 +19,7 @@ const Numbers = () => {
   ];
   return (
     <>
-      <div className="flex items-center gap-8">
+      <div className="grid grid-cols-2  justify-items-center lg:grid-cols-4 gap-8">
         {numbers.map((numberItem) => (
           <Number
             key={numberItem.text}

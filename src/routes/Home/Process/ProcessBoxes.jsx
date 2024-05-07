@@ -41,7 +41,7 @@ const processes = [
 
 const ProcessBoxes = () => {
   return (
-    <div className="font-poppins mt-10 grid grid-cols-3 gap-8">
+    <div className="font-poppins mt-10 grid lg:grid-cols-3 gap-8">
       {processes.map((process) => (
         <ProcessBox key={process.id} {...process} />
       ))}
