@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import useIcons from "../hooks/useIcons";
 const NavBarLayout = () => {
   const { FaArrowRightLong } = useIcons();
@@ -6,9 +6,9 @@ const NavBarLayout = () => {
     <>
       <nav className="bg-darkblue border-b border-b-gray-300 py-4 px-5 font-poppins">
         <div className="container flex justify-around items-center">
-          <NavLink>
+          <Link>
             <h1 className="text-white text-2xl font-bold">{"{Finsweet"}</h1>
-          </NavLink>
+          </Link>
 
           <ul className="flex gap-7 text-gray-300 font-semibold  text-base">
             <li>

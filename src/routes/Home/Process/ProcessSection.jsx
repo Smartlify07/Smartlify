@@ -14,7 +14,7 @@ const ProcessSection = () => {
               The process we are working With Our client Worldwide
             </h1>
 
-            <p className="text-darkblue text-sm font-light w-[60%]">
+            <p className="text-darkblue text-base font-light w-[60%]">
               Through True Rich Attended does no end it his mother since real
               had half every him case in packages enquire we up ecstatic
               unsatiable.
