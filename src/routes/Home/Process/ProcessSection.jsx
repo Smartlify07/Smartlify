@@ -1,9 +1,11 @@
 import ProcessBoxes from "./ProcessBoxes";
 
-const ProcessSection = () => {
+const ProcessSection = (props) => {
   return (
-    <section className="font-poppins py-20 px-6 flex flex-col items-center">
-      <div className="lg: w-11/12 xl:w-10/12 ">
+    <section
+      className={`${props.background} font-poppins py-20 px-6 flex flex-col items-center`}
+    >
+      <div className="lg:w-11/12 xl:w-10/12 ">
         <header className="flex justify-between items-start">
           <div className="flex flex-col gap-4">
             <h6 className="text-darkblue font-semibold uppercase text-sm ">

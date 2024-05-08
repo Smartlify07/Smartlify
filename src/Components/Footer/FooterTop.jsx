@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import useIcons from "../../../hooks/useIcons";
+import useIcons from "../../hooks/useIcons";
 
 const FooterTop = () => {
   const { FaArrowRightLong } = useIcons();

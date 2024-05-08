@@ -7,7 +7,7 @@ const NavBarLayout = () => {
   return (
     <>
       <nav className="bg-darkblue flex flex-col items-center  py-6 md:py-6  font-poppins border-b border-b-gray-700">
-        <div className="   w-11/12  flex justify-between md:justify-around lg:w-full  items-center relative ">
+        <div className=" w-11/12 flex justify-between md:justify-around  items-center relative xl:w-10/12 lg:w-11/12   ">
           <Link>
             <h1 className="text-white text-2xl font-bold">{"{Finsweet"}</h1>
           </Link>
@@ -52,11 +52,11 @@ const NavBarLayout = () => {
             onClick={() => {
               setShowNav((prevState) => !prevState);
             }}
-            className=" border rounded-md  flex flex-col gap-2 items-center justify-center  w-10 h-10 md:hidden"
+            className="    flex flex-col gap-2 items-center justify-center  w-10 h-10 md:hidden"
           >
-            <div className="w-8 h-1 rounded-md bg-gray-100 "></div>
-            <div className="w-8 h-1 rounded-md bg-gray-100"></div>
-            <div className="w-8 h-1 rounded-md bg-gray-100"></div>
+            <div className="w-8 h-[2px] rounded-md bg-gray-100 "></div>
+            <div className="w-8 h-[2px] rounded-md bg-gray-100"></div>
+            <div className="w-8 h-[2px] rounded-md bg-gray-100"></div>
           </div>
         </div>
       </nav>
