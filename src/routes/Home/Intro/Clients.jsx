@@ -12,11 +12,11 @@ const Clients = () => {
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-3  gap-1 xl:grid-cols-5  items-center">
-          <img className="w-[10rem]" src="./images/logos/Logo(3).png" alt="" />
-          <img className="w-[10rem]" src="./images/logos/Logo(4).png" alt="" />
-          <img className="w-[10rem]" src="./images/logos/Logo(5).png" alt="" />
-          <img className="w-[10rem]" src="./images/logos/Logo(6).png" alt="" />
-          <img className="w-[10rem]" src="./images/logos/Logo(7).png" alt="" />
+          <img className="w-[10rem]" src="./images/logos/Logo-1.svg" alt="" />
+          <img className="w-[10rem]" src="./images/logos/Logo-2.svg" alt="" />
+          <img className="w-[10rem]" src="./images/logos/Logo-3.svg" alt="" />
+          <img className="w-[10rem]" src="./images/logos/Logo-4.svg" alt="" />
+          <img className="w-[10rem]" src="./images/logos/Logo.svg" alt="" />
         </div>
       </div>
     </>

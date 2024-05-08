@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import ImageGrid from "./ImageGrid";
-import Numbers from "./Numbers";
+import Stats from "./Stats";
 import useIcons from "../../../hooks/useIcons";
 const About = () => {
   const { FaArrowRightLong } = useIcons();
@@ -13,7 +13,7 @@ const About = () => {
               <h6 className="text-darkblue text-base font-semibold self-start  mb-4">
                 ABOUT US
               </h6>
-              <h1 className="text-darkblue text-3xl leading-[2.3rem] lg:text-4xl  lg:w-[70%] xl:w-[50%] font-bold lg:leading-[1.75rem]">
+              <h1 className="text-darkblue text-3xl leading-[2.3rem] lg:text-4xl  lg:w-[70%] xl:w-[50%] font-bold lg:leading-[2.7rem]">
                 The company leads entire webdesign process from concept to
                 delivery.
               </h1>
@@ -33,7 +33,7 @@ const About = () => {
 
           <ImageGrid />
           <div className="flex flex-col justify-between items-center w-full self-center px-5 mt-6 lg:flex-row">
-            <Numbers />
+            <Stats />
             <NavLink
               to="/company"
               className={

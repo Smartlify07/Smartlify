@@ -15,7 +15,7 @@ const NavBarLayout = () => {
           <ul
             className={`${
               !showNav && `hidden`
-            } min-h-screen flex flex-col justify-around text-xl absolute top-[4rem] bg-darkblue w-[100vw]  right-[-0.9rem] md:flex  md:relative md:top-0 md:min-h-0 md:w-9/12 lg:w-8/12 md:left-0 md:justify-between md:flex-row items-center md:gap-3 lg:gap-7 text-gray-300 md:font-normal md:text-sm lg:font-semibold  lg:text-base`}
+            } min-h-screen z-10 flex flex-col justify-around text-xl absolute top-[4rem] bg-darkblue w-[100vw]  right-[-0.9rem] md:flex  md:relative md:top-0 md:min-h-0 md:w-9/12 lg:w-8/12 md:left-0 md:justify-between md:flex-row items-center md:gap-3 lg:gap-7 text-gray-300 md:font-normal md:text-sm lg:font-semibold  lg:text-base`}
           >
             <li>
               <NavLink to="/">Home</NavLink>

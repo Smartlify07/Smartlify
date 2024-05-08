@@ -23,7 +23,7 @@ const ProcessSection = (props) => {
             </p>
           </div>
 
-          <img src="./images/Shapes.png" alt="" />
+          <img src="./images/Shapes.svg" alt="" />
         </header>
 
         <ProcessBoxes />
