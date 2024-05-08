@@ -1,4 +1,4 @@
-import useIcons from "../../../hooks/useIcons";
+import useIcons from "../../hooks/useIcons";
 
 const FooterBottom = () => {
   const { FaTwitter, FaInstagram, FaLightbulb, FaLinkedin } = useIcons();

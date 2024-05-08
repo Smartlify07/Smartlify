@@ -8,12 +8,12 @@ const NewsLetter = () => {
           alt="pattern"
         />
 
-        <div className="flex flex-col gap-7 lg:flex-row lg:justify-between lg:items-center lg:gap-10 my-14 md:py-10">
+        <div className="flex flex-col gap-7 lg:flex-row lg:justify-between lg:items-center lg:gap-10 my-6 md:py-10">
           <header className="">
             <h3 className="text-white  text-base uppercase  mb-3">
               newsletter
             </h3>
-            <h1 className="text-white font-semibold md:w-9/12 text-3xl lg:text-xl lg:w-[80%] xl:text-4xl">
+            <h1 className="text-white font-semibold md:w-10/12 text-3xl lg:text-xl lg:w-10/12 xl:text-4xl">
               Subscribe our NewsLetter to get Latest Updates.
             </h1>
           </header>
