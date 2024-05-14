@@ -1,7 +1,7 @@
 const TestimonialCards = () => {
   return (
     <div className="">
-      <div className="bg-white px-9 py-7 w-full rounded-sm relative flex items-start flex-col gap-5 ">
+      <div className="bg-white px-9 py-10 md:px-12 lg:px-9 w-full rounded-sm relative flex items-start flex-col gap-5 ">
         <Gradient />
         <h3 className="text-darkblue font-semibold text-xl">
           Finsweet has been a wonderful partner to work with. I have been a
@@ -10,7 +10,7 @@ const TestimonialCards = () => {
         </h3>
 
         <div className="flex flex-col items-end lg:flex-row gap-2 lg:gap-4 justify-between lg:items-center ">
-          <div className="flex items-center gap-3 ">
+          <div className="flex items-center gap-3">
             <img src="./images/Testimonials/Image 3.svg" alt="avatar" />
             <div className="flex flex-col">
               <h5 className="text-darkblue text-[15px] font-semibold">

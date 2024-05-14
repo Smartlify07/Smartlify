@@ -1,9 +1,9 @@
 const Support = () => {
   return (
-    <section className="bg-white py-20 md:py-0 lg:pb-20 px-6 flex flex-col items-center font-poppins">
+    <section className="bg-white py-20 lg:py-0 md:px-20 md:py-20 lg:px-6 lg:pb-20 px-6 flex flex-col items-center font-poppins">
       <div className=" flex flex-col gap-7 items-center lg:flex-row lg:w-11/12 xl:w-10/12">
         <header className="flex flex-col gap-5 lg:gap-3 lg:py-5">
-          <h6 className="text-black text-lg font-semibold lg:text-base">
+          <h6 className="text-black text-lg md:text-xl font-semibold lg:text-base">
             Technical support
           </h6>
 
@@ -12,7 +12,7 @@ const Support = () => {
             backbone
           </h3>
 
-          <p className="text-sm font-light text-darkgray lg:w-9/12 ">
+          <p className="text-sm md:text-base font-light text-darkgray lg:w-9/12 ">
             Through True Rich Attended does no end it his mother since real had
             half every him case in packages enquire we up ecstatic unsatiable
             saw his giving Remain expense you position concluded. Through True

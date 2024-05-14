@@ -52,18 +52,18 @@ const ProcessBoxes = () => {
 const ProcessBox = (props) => {
   return (
     <>
-      <div className="border border-gray-200  px-6 py-4 rounded-sm w-full relative">
+      <div className="border border-gray-200  px-6 py-6 rounded-sm w-full relative">
         <div className="flex justify-end">
           <h3 className="text-lightgray font-bold text-xl">0{props.id}</h3>
         </div>
-        <div className="flex gap-2 items-start ">
+        <div className="flex gap-4 items-start ">
           <img src={props.icon} alt="icon" className="w-10" />
 
           <div className="flex flex-col gap-2">
-            <h3 className="text-black font-semibold text-base ">
+            <h3 className="text-black font-semibold text-base md:text-xl lg:text-lg">
               {props.heading}
             </h3>
-            <p className="text-darkblue font-extralight opacity-80 text-sm">
+            <p className="text-darkblue font-extralight opacity-80 text-sm md:text-lg lg:text-sm">
               {props.text}
             </p>
           </div>

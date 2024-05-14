@@ -1,28 +1,11 @@
-export const stats = [
-  {
-    count: "1560+",
-    text: "Project delivered",
-  },
-  {
-    count: "100+",
-    text: "Professional",
-  },
-  {
-    count: "950+",
-    text: "Happy Client",
-  },
-  {
-    count: "10 yrs",
-    text: "Experiences",
-  },
-];
+import stats from "../../../data/stats.json";
 
 const Stats = () => {
   return (
     <>
-      <div className="grid grid-cols-2  justify-items-center lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2  justify-items-center md:grid-cols-3 lg:grid-cols-4 gap-8">
         {stats.map((stat) => (
-          <Stat key={stat.text} count={stat.count} text={stat.text} />
+          <Stat key={stat.id} count={stat.count} text={stat.text} />
         ))}
       </div>
     </>
@@ -34,7 +17,7 @@ export function Stat(props) {
     <div className="flex flex-col gap-3 font-poppins">
       <h3 className="text-darkblue font-semibold  text-4xl">{props.count}</h3>
       <Gradient />
-      <p className="text-black font-regular">{props.text}</p>
+      <p className="text-black font-regular md:text-lg">{props.text}</p>
     </div>
   );
 }

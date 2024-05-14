@@ -3,7 +3,7 @@ import ProcessBoxes from "./ProcessBoxes";
 const ProcessSection = (props) => {
   return (
     <section
-      className={`${props.background} font-poppins py-20 px-6 flex flex-col items-center`}
+      className={`${props.background} font-poppins py-20 px-6 md:px-20 lg:px-6 flex flex-col items-center`}
     >
       <div className="lg:w-11/12 xl:w-10/12 ">
         <header className="flex justify-between items-start">

@@ -2,7 +2,7 @@ import TestimonialCards from "./TestimonialCards";
 
 const Testimonials = () => {
   return (
-    <section className="bg-skyblue py-20 px-6  font-poppins flex flex-col items-center ">
+    <section className="bg-skyblue py-20 px-6 md:px-20 lg:px-6  font-poppins flex flex-col items-center ">
       <div className="lg:w-11/12 xl:w-10/12 flex flex-col  lg:flex-row items-center justify-between gap-10">
         <div className="relative w-full flex flex-col gap-2 py-5">
           <div className="w-3 h-3 bg-royalblue absolute top-[-7px]"></div>
@@ -10,10 +10,10 @@ const Testimonials = () => {
           <h1 className="text-darkblue font-semibold text-3xl xl:w-[70%]  ">
             Our customers love what we do
           </h1>
-          <p className="text-[18px] lg:text-[16px] text-darkblue font-medium">
+          <p className="text-[18px] md:text-[22px] lg:text-[16px] text-darkblue font-medium">
             Transform your idea into reality with finsweet
           </p>
-          <p className="text-[16px] lg:text-[14px] text-darkblue  font-normal">
+          <p className="text-[16px] md:text-[18px] lg:text-[14px] text-darkblue  font-normal">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
@@ -39,7 +39,7 @@ const Testimonials = () => {
             />
           </div>
 
-          <p className="text-black text-[14px] font-normal mt-2 text-center lg:text-left">
+          <p className="text-black text-[14px] md:text-[20px] font-normal mt-2 text-center lg:text-left">
             <span className="text-base font-semibold">30+ </span>
             Customer Reviews
           </p>

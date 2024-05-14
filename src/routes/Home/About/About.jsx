@@ -6,15 +6,15 @@ const About = () => {
   const { FaArrowRightLong } = useIcons();
   return (
     <>
-      <section className=" py-20 px-6 flex flex-col items-center font-poppins">
+      <section className=" py-20 px-6 md:px-20 lg:px-6 flex flex-col items-center font-poppins">
         <div className=" lg:w-11/12 xl:w-10/12 flex flex-col">
-          <div className="flex flex-col justify-around gap-5 items-center  ">
+          <div className="flex flex-col justify-around gap-5 items-center md:gap-10  lg:gap-5">
             <div className="flex flex-col">
-              <h6 className="text-darkblue text-base font-semibold self-start  mb-4">
+              <h6 className="text-darkblue text-base md:text-lg lg:text-base font-semibold self-start  mb-4">
                 ABOUT US
               </h6>
-              <h1 className="text-darkblue text-3xl leading-[2.3rem] lg:text-4xl  lg:w-[70%] xl:w-[50%] font-bold lg:leading-[2.7rem]">
-                The company leads entire webdesign process from concept to
+              <h1 className="text-darkblue text-3xl leading-[2.3rem] md:text-4xl  lg:w-[70%] xl:w-[50%] font-bold lg:leading-[2.7rem]">
+                The company leads entire web design process from concept to
                 delivery.
               </h1>
             </div>
@@ -37,7 +37,7 @@ const About = () => {
             <NavLink
               to="/company"
               className={
-                "text-blue-500 mt-7 flex items-center gap-2 font-poppins lg:mt-0 "
+                "text-royalblue mt-7 flex items-center gap-2 md:text-lg font-poppins lg:mt-0 "
               }
             >
               Read about us

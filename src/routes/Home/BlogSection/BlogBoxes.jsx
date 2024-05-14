@@ -44,7 +44,9 @@ const BlogBox = (props) => {
         <h3 className=" text-darkblue font-semibold text-xl">{props.title}</h3>
 
         <Link
-          className={" text-lightblue text-base flex items-center gap-4 mt-3"}
+          className={
+            " text-lightblue text-base md:text-lg flex items-center gap-4 mt-3"
+          }
         >
           Read More
           <FaArrowRightLong className="text-2xl text-darkblue" />

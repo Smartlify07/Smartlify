@@ -5,13 +5,13 @@ const Intro = () => {
   const { FaArrowRightLong } = useIcons();
   return (
     <>
-      <section className="py-20 px-6 bg-darkblue font-poppins md:flex md:flex-col items-center">
+      <section className="py-20 px-6 bg-darkblue font-poppins md:px-20 lg:px-6 md:flex md:flex-col items-center">
         <div className="flex flex-col items-center lg:flex-row lg:w-11/12 xl:w-10/12 lg:justify-around">
           <div className=" flex flex-col gap-5 md:gap-6 lg:w-5/12">
             <h3 className="text-white leading-snug font-semibold text-2xl md:text-5xl w-[100%] lg:leading-tight">
               Transform Your Idea Into Reality with Finsweet
             </h3>
-            <p className="text-blue-100 font-light text-base w-[90%]">
+            <p className="text-blue-100 font-light text-base md:text-lg w-[90%]">
               The entire Finsweet team knows what's good with Webflow and you
               can too with 1 week and a good attitude.
             </p>
@@ -23,7 +23,7 @@ const Intro = () => {
             ></Button>
           </div>
 
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <img
               src="./images/HeaderImage.png"
               alt=""

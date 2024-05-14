@@ -1,6 +1,6 @@
 const OurVision = () => {
   return (
-    <section className="bg-white px-6 py-20 flex flex-col font-poppins items-center">
+    <section className="bg-white px-6 py-20 flex flex-col font-poppins items-center md:px-20 lg:px-6">
       <div className="flex flex-col   lg:w-11/12 xl:w-10/12">
         <header className="flex flex-col gap-6  lg:gap-4">
           <h6 className="text-darkblue font-semibold text-lg lg:text-base uppercase">

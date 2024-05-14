@@ -1,6 +1,6 @@
 const Development = () => {
   return (
-    <section className="bg-verylightblue py-10 lg:py-0  lg:pb-10 px-6 flex flex-col items-center font-poppins">
+    <section className="bg-verylightblue py-10 md:py-20 lg:py-0 md:px-20  lg:pb-10 lg:px-6 px-6 flex flex-col items-center font-poppins">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-20 lg:w-11/12 xl:w-10/12">
         <div className="lg:w-10/12">
           <img
@@ -11,7 +11,7 @@ const Development = () => {
         </div>
 
         <header className="flex flex-col gap-4 lg:w-full   ">
-          <h6 className="text-black font-semibold text-lg lg:text-base">
+          <h6 className="text-black font-semibold md:text-xl lg:text-lg text-lg ">
             Development
           </h6>
 
@@ -20,7 +20,7 @@ const Development = () => {
             working with latest technologies
           </h1>
 
-          <p className="text-darkgray text-base font-light lg:w-full">
+          <p className="text-darkgray text-base md:text-lg lg:text-base font-light lg:w-full">
             Through True Rich Attended does no end it his mother since real had
             half every him case in packages enquire we up ecstatic unsatiable
             saw his giving Remain expense you position concluded. Through True

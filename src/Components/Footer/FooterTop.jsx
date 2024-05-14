@@ -1,22 +1,24 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import useIcons from "../../hooks/useIcons";
 
 const FooterTop = () => {
   const { FaArrowRightLong } = useIcons();
   return (
-    <section className="bg-white py-0 lg:py-20  px-6 relative flex flex-col items-center font-poppins">
-      <div className="grid lg:grid-cols-2 gap-5 md:w-11/12 xl:w-10/12 lg:mt-10 lg:py-10">
-        <div className="flex flex-col gap-4  py-4 px-4">
+    <section className="bg-white py-0 lg:py-20 md:px-20 lg:px-6 px-6 relative flex flex-col items-center font-poppins">
+      <div className="grid lg:grid-cols-2 gap-5 md:w-full xl:w-10/12 lg:mt-10 lg:py-10">
+        <div className="flex flex-col gap-4 md:px-0 lg:px-4  py-4 px-4">
           <h1 className="text-darkblue font-semibold text-3xl lg:text-3xl lg:w-[100%] ">
-            Let's make something special
+            Let&apos;s make something special
           </h1>
 
-          <h4 className="text-darkblue font-semibold text-lg">Let's talk!✌️</h4>
+          <h4 className="text-darkblue font-semibold text-lg">
+            Let&apos;s talk!✌️
+          </h4>
           <p className="text-darkblue text-base">09066927835</p>
           <p className="text-darkblue text-base">smartlify09@gmail.com</p>
         </div>
-        <div className="grid grid-cols-2 py-4 md:py-0  lg:grid-cols-3 gap-5">
-          <div className="flex flex-col gap-4  py-4 px-4">
+        <div className="grid grid-cols-2 py-4 md:py-0   lg:grid-cols-3 gap-5">
+          <div className="flex flex-col gap-4 md:px-0  py-4 px-4 lg:px-4">
             <ul className="flex flex-col  gap-3">
               <Link className={"text-darkblue font-semibold text-base "}>
                 Home
@@ -52,7 +54,7 @@ const FooterTop = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col gap-4 w-full py-4 px-4">
+          <div className="flex flex-col gap-4 w-full py-4 px-4  md:px-0 lg:px-4">
             <ul className="flex flex-col  gap-3">
               <Link className={"text-darkblue text-base font-semibold"}>
                 Resources

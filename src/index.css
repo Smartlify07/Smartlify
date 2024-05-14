@@ -13,9 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.active {
+/* .active {
   opacity: 1;
   color: #fff;
   font-weight: 600;
   border-top: 2px solid #ffa155;
-}
+} */

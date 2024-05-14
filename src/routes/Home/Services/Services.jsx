@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "../../../Components/Button";
 import useIcons from "../../../hooks/useIcons";
 
@@ -24,7 +24,7 @@ const services = [
 const Services = () => {
   const { FaArrowRightLong } = useIcons();
   return (
-    <section className="font-poppins py-20 px-6 bg-lightpink flex flex-col items-center">
+    <section className="font-poppins py-20 px-6 md:px-20 lg:px-6  bg-lightpink flex flex-col items-center">
       <div className="lg:w-11/12 xl:w-10/12">
         <h6 className="text-black uppercase text-sm my-4">our services</h6>
         <header>

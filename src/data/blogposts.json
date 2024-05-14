@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Introduction to AI",
+      "createdAt": "2024-05-13T10:00:00Z",
+      "author": "John Doe",
+      "authorImg": "http://imageipsum.com/1200x675",
+      "blogCover": "http://imageipsum.com/1200x675"
+    },
+    {
+      "id": 2,
+      "title": "The Future of Renewable Energy",
+      "createdAt": "2024-05-12T15:30:00Z",
+      "author": "Jane Smith",
+      "authorImg": "http://imageipsum.com/1200x675",
+      "blogCover": "http://imageipsum.com/1200x675"
+    },
+    {
+      "id": 3,
+      "title": "Exploring Space Exploration",
+      "createdAt": "2024-05-11T09:45:00Z",
+      "author": "Alex Johnson",
+      "authorImg": "http://imageipsum.com/1200x675",
+      "blogCover": "http://imageipsum.com/1200x675"
+    },
+    {
+      "id": 4,
+      "title": "Healthy Eating Habits",
+      "createdAt": "2024-05-10T12:20:00Z",
+      "author": "Emily Brown",
+      "authorImg": "http://imageipsum.com/1200x675",
+      "blogCover": "http://imageipsum.com/1200x675"
+    },
+    {
+      "id": 5,
+      "title": "The Art of Writing",
+      "createdAt": "2024-05-09T17:10:00Z",
+      "author": "David Wilson",
+      "blogCover": "http://imageipsum.com/1200x675",
+      "authorImg": "http://imageipsum.com/1200x675"
+    },
+    {
+      "id": 6,
+      "title": "Mindfulness Meditation",
+      "createdAt": "2024-05-08T11:55:00Z",
+      "author": "Sophia Lee",
+      "authorImg": "http://imageipsum.com/1200x675",
+      "blogCover": "http://imageipsum.com/1200x675"
+    }
+  ]
+}
