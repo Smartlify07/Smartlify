@@ -3,7 +3,7 @@ const NewsLetter = () => {
     <section className="bg-white px-6 flex flex-col items-center mb-10 ">
       <div className="bg-royalblue py-6 px-10 w-full md:w-11/12 xl:w-10/12 relative">
         <img
-          src="../../public/images/ShapesBig.svg"
+          src="./images/ShapesBig.svg"
           className="absolute top-0 left-0"
           alt="pattern"
         />
