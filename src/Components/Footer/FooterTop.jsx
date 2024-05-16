@@ -59,11 +59,15 @@ const FooterTop = () => {
               <Link className={"text-darkblue text-base font-semibold"}>
                 Resources
               </Link>
-              <Link className={"text-darkblue text-base"}>About us</Link>
+              <Link to="about" className={"text-darkblue text-base"}>
+                About us
+              </Link>
               <Link className={"text-darkblue text-base"}>Testimonial</Link>
               <Link className={"text-darkblue text-base"}>Privacy policy</Link>
               <Link className={"text-darkblue text-base"}>Terms of use</Link>
-              <Link className={"text-darkblue text-base"}>Blog</Link>
+              <Link to={"blog"} className={"text-darkblue text-base"}>
+                Blog
+              </Link>
             </ul>
           </div>
         </div>
