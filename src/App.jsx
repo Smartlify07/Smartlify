@@ -22,6 +22,7 @@ import BlogPostDetail from "./routes/Blog/BlogPostDetail/BlogPostDetail";
 import { postDetailLoader } from "./loaderfunctions/postDetailLoader";
 import BlogPostDetailError from "./routes/Blog/BlogPostDetail/BlogPostDetailError";
 import ContactLayout from "./layout/ContactLayout";
+import BlogError from "./routes/Blog/BlogError";
 
 const Blog = lazy(() => import("./layout/Blog"));
 
@@ -63,6 +64,7 @@ function App() {
               <Blog />
             </Suspense>
           }
+          errorElement={<BlogError />}
           loader={blogPostsLoader}
         />
 
