@@ -1,5 +1,5 @@
 import { Link, useRouteError } from "react-router-dom";
-import useIcons from "../../../hooks/useIcons";
+import useIcons from "../../hooks/useIcons";
 
 const BlogError = () => {
   const error = useRouteError();
